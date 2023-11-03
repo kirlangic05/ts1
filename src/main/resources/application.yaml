@@ -1,5 +1,22 @@
-spring :
-  data :
-    mongodb :
-      uri : mongodb+srv://root:3333@kirlangic.n6obeir.mongodb.net/?retryWrites=true&w=majority
+#spring :
+#  data :
+#    mongodb :
+#      uri : mongodb+srv://root:3333@kirlangic.n6obeir.mongodb.net/?retryWrites=true&w=majority
+#      database: Task
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://root:3333@kirlangic.n6obeir.mongodb.net/?retryWrites=true&w=majority
       database: Task
+
+#  cors:
+#    mapping: /**
+#    allowed-origins: http://localhost:3000
+#    allowed-methods: GET, POST, PUT, DELETE
+#    allowed-headers: "*"
+#    allow-credentials: true
+
+
+
+
